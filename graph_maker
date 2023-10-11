@@ -10,7 +10,7 @@ iterations = list(range(1, len(sequence) + 1))
 
 # Create a graph
 plt.plot(iterations, sequence, marker='o', linestyle='-')
-plt.title("Collatz Conjecture for Starting Number 12,387")
+plt.title("Collatz Conjecture Graph")
 plt.xlabel("Iteration")
 plt.ylabel("Value")
 plt.grid(True)
