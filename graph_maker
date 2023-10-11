@@ -1,0 +1,19 @@
+import matplotlib.pyplot as plt
+
+# The Collatz sequence
+sequence = [
+    4, 2, 1
+]
+
+# Create a list of iteration numbers
+iterations = list(range(1, len(sequence) + 1))
+
+# Create a graph
+plt.plot(iterations, sequence, marker='o', linestyle='-')
+plt.title("Collatz Conjecture for Starting Number 12,387")
+plt.xlabel("Iteration")
+plt.ylabel("Value")
+plt.grid(True)
+
+# Display the graph
+plt.show()
